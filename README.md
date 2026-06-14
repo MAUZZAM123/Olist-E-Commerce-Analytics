@@ -1,4 +1,6 @@
-# Olist-E-Commerce-Analytics
+
+# 🛒 Olist E-Commerce Sales Dashboard
+
 Built an interactive E-Commerce Analytics Dashboard using Olist dataset with MySQL and Power BI. Performed data cleaning, modeling, and analysis to track revenue, orders, customer behavior, delivery performance, and satisfaction. Delivered actionable insights through dynamic visuals and DAX measures.
 
 ---
@@ -82,78 +84,209 @@ Enables deeper analysis of categories, customers, or orders for better decision-
 
 ---
 
+## 📌 Project Overview
+
+This project analyzes the Olist E-Commerce dataset to evaluate overall business performance, customer behavior, sales trends, delivery efficiency, and customer satisfaction.
+
+The dashboard transforms raw transactional data into meaningful business insights, helping stakeholders make data-driven decisions. The project demonstrates data cleaning, data modeling, KPI creation, and interactive dashboard development using MySQL and Power BI.
+
+---
+
 ## 🎯 Objective
 
-The goal of this project is to understand how an e-commerce business is performing by analyzing the Olist dataset.
-I built this dashboard to turn raw data into useful insights that can help in making better business decisions.
+The primary objective of this project is to analyze e-commerce business performance using the Olist dataset and uncover valuable insights related to sales, customers, products, payments, and deliveries.
+
+The dashboard aims to:
+
+* Monitor overall business performance
+* Identify top-performing product categories
+* Analyze customer purchasing behavior
+* Evaluate delivery performance
+* Measure customer satisfaction through reviews
+* Support strategic decision-making with data-driven insights
 
 ---
 
-## 📂 About the Dataset
+## 📂 Dataset
 
-The dataset includes real e-commerce data like orders, customers, payments, products, and reviews.
-It helps in analyzing different parts of the business such as sales, delivery, and customer satisfaction.
+The Olist dataset contains real-world Brazilian e-commerce transaction data and includes information from multiple business areas.
 
----
+### Key Data Tables
 
-## 🛠️ Tools Used
-
-* MySQL for data cleaning and querying
-* Power BI for building the dashboard
-* DAX for creating calculations and KPIs
-
----
-
-## 🔄 What I Did
-
-I first cleaned and organized the data using MySQL.
-Then I imported it into Power BI, created relationships, and built an interactive dashboard with different pages.
+| Table       | Description                            |
+| ----------- | -------------------------------------- |
+| Customers   | Customer details and locations         |
+| Orders      | Order information and status           |
+| Order Items | Product-level order details            |
+| Products    | Product categories and information     |
+| Payments    | Payment methods and transaction values |
+| Reviews     | Customer ratings and feedback          |
+| Sellers     | Seller information                     |
+| Geolocation | Customer and seller locations          |
 
 ---
 
-## 📊 What This Dashboard Shows
+## 🔧 Data Cleaning & Transformation
 
-* Overall business performance (revenue, orders, customers)
-* Sales trends and top product categories
-* Customer behavior and location analysis
-* Delivery performance and delays
-* Customer reviews and satisfaction levels
+The following data preparation steps were performed:
+
+* Cleaned and validated raw data using MySQL
+* Removed inconsistencies and duplicate records
+* Handled missing values where necessary
+* Created relationships between multiple tables
+* Organized data into a structured model
+* Imported cleaned data into Power BI
+* Created calculated measures using DAX
 
 ---
 
-## 💡 Key Learnings / Insights
+## 📊 Key Performance Indicators (KPIs)
 
-* Most customers prefer paying by credit card
-* Some product categories perform much better than others
-* Faster delivery leads to better customer ratings
-* Certain locations contribute more to sales and customers
+The dashboard includes the following KPIs:
+
+* Total Revenue
+* Total Orders
+* Total Customers
+* Average Order Value (AOV)
+* Customer Satisfaction Score
+* Average Delivery Time
+* Total Products Sold
+
+---
+
+## 🎛 Dashboard Features
+
+Interactive dashboard pages allow users to analyze:
+
+### Sales Analysis
+
+* Revenue trends over time
+* Top-performing product categories
+* Order distribution analysis
+
+### Customer Analysis
+
+* Customer locations
+* Customer purchase behavior
+* Customer growth trends
+
+### Delivery Analysis
+
+* Delivery duration tracking
+* Delayed vs. on-time deliveries
+* Logistics performance evaluation
+
+### Review Analysis
+
+* Customer ratings distribution
+* Satisfaction trends
+* Impact of delivery performance on reviews
+
+---
+
+## 📈 Visualizations
+
+The dashboard includes:
+
+| Visualization      | Purpose                          |
+| ------------------ | -------------------------------- |
+| KPI Cards          | Business performance overview    |
+| Line Charts        | Revenue and order trends         |
+| Bar Charts         | Category and customer analysis   |
+| Map Visualizations | Geographic customer distribution |
+| Pie/Donut Charts   | Payment method analysis          |
+| Tables & Matrix    | Detailed business insights       |
+| Slicers            | Interactive filtering            |
+
+---
+
+## 💡 Key Insights
+
+* Credit card is the most preferred payment method.
+* Certain product categories generate significantly higher sales.
+* Faster deliveries are associated with better customer ratings.
+* Major cities contribute the highest share of customers and revenue.
+* Customer satisfaction is strongly influenced by delivery performance.
 
 ---
 
 ## ⚠️ Limitations
 
-The dataset does not include cost data, so actual profit cannot be calculated.
-Some insights are based on available data and assumptions.
+* Cost and profit data are not available in the dataset.
+* Profitability analysis cannot be performed accurately.
+* Some business assumptions were made based on available information.
 
 ---
 
 ## 🚀 Future Improvements
 
-I can improve this project by adding profit analysis, forecasting, and more advanced visuals.
-Also, adding real-time data would make the dashboard even more powerful.
+Potential enhancements include:
+
+* Profit and margin analysis
+* Sales forecasting and trend prediction
+* Advanced customer segmentation
+* Real-time dashboard integration
+* Predictive analytics using machine learning
+
+---
+
+## 📊 Dashboard Overview
+
+### Dashboard
+
+![Dashboard Image](docs/Dashboard.png)
+
+---
+
+## 🛠 Tools Used
+
+* MySQL – Data Cleaning and Querying
+* Power BI – Data Visualization and Dashboard Development
+* DAX – KPI and Measure Creation
+
+---
+
+## 📁 Repository Structure
+
+```text
+📂 Olist-Ecommerce-Dashboard/
+│
+├── Dataset/
+│   └── Olist Dataset Files
+│
+├── SQL/
+│   └── Data Cleaning Queries.sql
+│
+├── Power BI/
+│   └── Olist Dashboard.pbix
+│
+├── Docs/
+│   └── Dashboard Screenshots
+│
+└── README.md
+```
 
 ---
 
 ## 📌 Conclusion
 
-This project helped me understand how data can be used to solve real business problems.
-It also improved my skills in SQL, Power BI, and data storytelling.
+This project demonstrates how data analytics can be used to understand and improve e-commerce business performance.
+
+By combining MySQL for data preparation and Power BI for visualization, the dashboard provides actionable insights into sales, customers, deliveries, and customer satisfaction. The project strengthened practical skills in SQL, Power BI, DAX, and business intelligence reporting.
 
 ---
 
+## 👤 Author
 
+**Your Name**
 
+* LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/mauzzamshaikh1104/)
+* GitHub: [Your GitHub Profile](https://github.com/MAUZZAM123)
 
+---
 
+## 🌟 Feedback & Support
 
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
+Feedback, suggestions, and contributions are always welcome!
