@@ -230,14 +230,6 @@ Potential enhancements include:
 
 ---
 
-## 📊 Dashboard Overview
-
-### Dashboard
-
-![Dashboard Image](docs/Dashboard.png)
-
----
-
 ## 🛠 Tools Used
 
 * MySQL – Data Cleaning and Querying
