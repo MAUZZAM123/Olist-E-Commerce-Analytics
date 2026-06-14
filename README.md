@@ -272,8 +272,8 @@ By combining MySQL for data preparation and Power BI for visualization, the dash
 
 **Your Name**
 
-* LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/mauzzamshaikh1104/)
-* GitHub: [Your GitHub Profile](https://github.com/MAUZZAM123)
+* LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/mauzzamshaikh1104/)
+* GitHub: [GitHub Profile](https://github.com/MAUZZAM123)
 
 ---
 
